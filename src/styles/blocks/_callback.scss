@@ -1,0 +1,110 @@
+.callback {
+  min-width: 100vw;
+  height: 100vh;
+  padding: 16px;
+  background: #fff;
+  position: fixed;
+  z-index: 13;
+  top: 0;
+  right: 0;
+  border-left: 1px solid #d9fff5;
+  @media (min-width: $table-width) {
+    padding: 32px;
+    width: 440px;
+    min-width: 440px;
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+      -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  }
+
+  &__header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    @media (min-width: $table-width) {
+      flex-direction: row;
+      justify-content: flex-start;
+      position: absolute;
+
+      width: 100%;
+      align-items: center;
+      gap: 65px;
+      right: 72px;
+      top: 0;
+    }
+  }
+  &__button {
+    margin-top: 8px;
+  }
+  &__title {
+    color: #1b1c21;
+    font-family: "TT Lakes";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    @media (min-width: $table-width) {
+    }
+    &::before {
+      content: "";
+      display: block;
+      width: 4px;
+      height: 40px;
+      border-radius: 0 3px 3px 0;
+      background-color: #41f6d7;
+      position: absolute;
+      left: -17px;
+      top: 85px;
+      @media (min-width: $table-width) {
+        left: 71px;
+        top: 35px;
+      }
+    }
+  }
+  &__form {
+    @media (min-width: $table-width) {
+      margin-top: 64px;
+    }
+  }
+  &__input {
+    width: 100%;
+    min-height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    @media (min-width: $table-width) {
+    }
+    &::placeholder {
+      color: #b5b6bc;
+      font-family: "TT Lakes";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; /* 150% */
+      letter-spacing: -0.2px;
+    }
+  }
+  &__oferta {
+    color: #7e7e82;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  &__span {
+    color: #ff3e79;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

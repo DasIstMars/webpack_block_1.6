@@ -1,0 +1,29 @@
+.fog {
+  background-color: rgba(255, 255, 255, 0.96);
+  top: 0;
+  position: fixed;
+  z-index: 11;
+  
+  &--right-side {
+    width: calc(100vw - 320px);
+    height: 100vh;
+    left: 320px;
+  }
+  &--left-side {
+    width: calc(100vw - 440px);
+    right: 440px;
+    height: 100vh;
+  }
+
+  &--open {
+    display: block;
+  }
+  &--closed {
+    display: none;
+  }
+  &--right-side {
+    @media (min-width: $desktop-width) {
+      display: none;
+    }
+  }
+}

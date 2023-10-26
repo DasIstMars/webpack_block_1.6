@@ -1,0 +1,13 @@
+.swiper-pagination {
+  @media (min-width: $table-width) {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  flex-shrink: 0;
+  background-color: #b5b6bc;
+}

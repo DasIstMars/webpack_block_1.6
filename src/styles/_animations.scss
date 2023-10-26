@@ -1,0 +1,9 @@
+/*ANIMATIONS*/
+@keyframes bell {
+    0% {
+      transform: rotate(-8deg);
+    }
+    100% {
+      transform: rotate(8deg);
+    }
+  }

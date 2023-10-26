@@ -1,0 +1,60 @@
+.article__title {
+  position: relative;
+  color: #1b1c21;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  margin: 0;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 40px;
+    border-radius: 0 3px 3px 0;
+    background-color: #41f6d7;
+    position: absolute;
+    left: -16px;
+
+    @media (min-width: $table-width) {
+      left: -24px;
+    }
+
+    @media (min-width: $desktop-width) {
+      left: -34px;
+    }
+  }
+}
+
+.article__wrapper {
+
+  @media (min-width: $table-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.article__img {
+  padding-top: 55%;
+  width: 100%;
+  background: url(/src/images/CSP_image.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position: 0 45%;
+
+  @media (min-width: $table-width) {
+    border-radius: 6px;
+  }
+}
+
+.article__content {
+  width: 100vw;
+  margin-right: 24px;
+  margin-bottom: 24px;
+
+  @media (min-width: $table-width) {
+    width: 50vw;
+    max-width: 560px;
+    margin-bottom: 32px;
+  }
+}

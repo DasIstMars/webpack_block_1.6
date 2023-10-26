@@ -1,0 +1,17 @@
+
+.header {
+    @media (min-width: $desktop-width) {
+    display: none;
+    }
+    &__main-menu {
+        display: flex;
+        align-items: center;
+      }
+}
+
+
+
+
+
+
+

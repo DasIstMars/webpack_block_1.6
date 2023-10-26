@@ -1,0 +1,28 @@
+/*TEXT*/
+.textbox {
+    display: block;
+    overflow: hidden;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    height: 90px;
+    line-height: 18px;
+    @media (min-width: $table-width) {
+            max-width: 45vw;
+            height: 160px;
+            margin: 0;
+            line-height: 20px;
+            padding-right: 24px;
+    }
+    @media (min-width: $desktop-width) {
+            align-self: start;
+            height: 160px;
+            max-width: 490px;
+            padding-right: 0;
+    }
+    &__text {
+        font-weight: normal;
+    }
+    &--expanded {
+        height: auto;
+    } 
+}

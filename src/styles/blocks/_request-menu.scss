@@ -1,0 +1,43 @@
+.request-menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  &__button {
+    position: relative;
+    &:last-of-type::after {
+      content: "";
+      display: block;
+      width: 24px;
+      height: 40px;
+      background: linear-gradient(
+        270deg,
+        #f8f8f8 16.84%,
+        rgba(248, 248, 248, 0) 100%
+      );
+      position: absolute;
+      right: -16px;
+      top: 155px;
+      z-index: 11;
+
+      @media (min-width: $table-width) {
+        right: -24px;
+        top: 165px;
+      }
+      @media (min-width: $desktop-width) {
+        display: none;
+      }
+    }
+    &:first-of-type::before {
+      content: "";
+      display: block;
+      width: 2px;
+      height: 32px;
+      border-radius: 1px;
+      background-color: #eaeaea;
+      position: absolute;
+      right: 60px;
+      bottom: 5px;
+    }
+  }
+}

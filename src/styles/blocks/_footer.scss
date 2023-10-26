@@ -1,0 +1,20 @@
+.footer {
+    background: #F8F8F8;
+    border-top: 1px solid #d9fff5;
+    &__text {
+        color: #7E7E82;
+        font-family: 'TT Lakes';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        opacity: 0.7218;
+        width: auto;
+        text-align: center;
+        margin-top: 16px;
+        @media (min-width: $table-width) {
+        width: 30%;
+        text-align: left;
+        }
+    }
+}

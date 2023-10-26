@@ -1,0 +1,82 @@
+.section-title {
+  position: relative;
+  max-height: 80px;
+  min-height: 56px;
+  padding: 16px;
+  border-top: 1px solid #d9fff5;
+  background: linear-gradient(90deg, #f8f8f8 1.39%, #fff 100%);
+
+  @media (min-width: $table-width) {
+    height: 56px;
+    padding: 16px 24px;
+  }
+  @media (min-width: $desktop-width) {
+    padding: 16px 32px;
+  }
+  &__text {
+    color: #7e7e82;
+    font-family: "TT Lakes", sansection-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 81px;
+
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0) 100%
+    );
+    top: 92px;
+    right: 0;
+    z-index: 3;
+    @media (min-width: $table-width) {
+      display: none;
+    }
+  }
+  &--square {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 169px;
+      background: linear-gradient(
+        270deg,
+        #f8f8f8 16.84%,
+        rgba(248, 248, 248, 0) 100%
+      );
+      top: 92px;
+      right: 0;
+      z-index: 3;
+      @media (min-width: $table-width) {
+        display: none;
+      }
+    }
+  }
+  &--table {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 210px;
+      background: linear-gradient(
+        270deg,
+        #f8f8f8 16.84%,
+        rgba(248, 248, 248, 0) 100%
+      );
+      top: 70px;
+      right: 0;
+      z-index: 3;
+      @media (min-width: $table-width) {
+        display: none;
+      }
+    }
+  }
+}

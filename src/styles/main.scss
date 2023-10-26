@@ -1,0 +1,53 @@
+@import "/src/styles/fonts";
+@import "/src/styles/reset";
+@import "/src/styles/variables";
+@import "/src/styles/animations";
+
+@import "/src/styles/blocks/header";
+@import "/src/styles/blocks/button";
+@import "/src/styles/blocks/container";
+@import "/src/styles/blocks/mob-menu";
+@import "/src/styles/blocks/tablet-menu";
+@import "/src/styles/blocks/request-menu";
+@import "/src/styles/blocks/article";
+@import "/src/styles/blocks/main-request-menu";
+@import "/src/styles/blocks/main-nav";
+@import "/src/styles/blocks/textbox";
+@import "/src/styles/blocks/expand-button";
+@import "/src/styles/blocks/wrapper";
+@import "/src/styles/blocks/side-menu";
+@import "/src/styles/blocks/side-mob-menu";
+@import "/src/styles/blocks/side-nav";
+@import "/src/styles/blocks/contacts";
+@import "/src/styles/blocks/fog";
+@import "/src/styles/blocks/callback";
+@import "/src/styles/blocks/submit-button";
+@import "/src/styles/blocks/section";
+@import "/src/styles/blocks/section-title";
+@import "/src/styles/blocks/section-nav";
+@import "/src/styles/blocks/swiper";
+@import "/src/styles/blocks/footer";
+
+@import "/src/styles/pamoika";
+
+.body {
+  font-family: "TT Lakes", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  height: auto;
+  @media (min-width: $desktop-width) {
+    background: linear-gradient(90deg, #fff 50%, #f8f8f8 50%);
+  }
+  &--scroll {
+    overflow: hidden;
+  }
+}
+
+.main {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+}
+

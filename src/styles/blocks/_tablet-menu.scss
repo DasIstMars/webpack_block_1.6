@@ -1,0 +1,21 @@
+.tablet-menu {
+  &--hidden {
+    display: none;
+  }
+
+  @media (min-width: $table-width) {
+    display: flex;
+    align-items: center;
+    margin-right: 26px;
+  }
+
+  &__button {
+    margin-right: 16px;
+
+    &:first-of-type:hover {
+      animation-name: bell;
+      animation-duration: 100ms;
+      animation-iteration-count: 10;
+    }
+  }
+}

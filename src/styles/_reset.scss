@@ -1,0 +1,24 @@
+/*RESET*/
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a, 
+a:visited, 
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+}

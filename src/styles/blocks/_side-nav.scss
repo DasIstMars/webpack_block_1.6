@@ -1,0 +1,49 @@
+.side-nav {
+    &__list {
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+    }
+    &__item {
+      position: relative;
+      margin-top: 24px;
+      margin-left: 16px;
+      @media (min-width: $table-width) {
+      margin-top: 32px;
+      margin-left: 24px;
+      }
+      &:first-of-type {
+        margin-top: 10px;
+      }
+      &:last-of-type {
+        margin-bottom: 4px;
+      }
+    }
+    &__link {
+      color: #1b1c21;
+      font-family: 'TT Lakes';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      &:hover {
+        color: #7e7e82;
+      }
+      &:hover::before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 0 3px 3px 0;
+        background-color: #41f6d7;
+        position: absolute;
+        left: -16px;
+        top: -4px;
+        @media (min-width: $table-width) {
+        left: -24px;
+        }
+      }
+    }
+  }

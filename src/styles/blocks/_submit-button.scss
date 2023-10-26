@@ -1,0 +1,20 @@
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 122px;
+    padding: 4px 16px;
+    border-radius: 16px;
+    background: #FF3E79;
+    &__text {
+        color: #FFF;
+        text-align: right;
+        font-family: TT Lakes;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 200% */
+        letter-spacing: -0.15px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,32 @@
+.mob-menu {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    height: 51px;
+  }
+
+  &__button {
+    margin-right: 16px;
+    height: 40px;
+
+    @media (min-width: $table-width) {
+        margin-right: 43px;
+        position: relative;
+      }
+
+    &::before {
+      @media (min-width: $table-width) {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 32px;
+        border-radius: 1px;
+        background-color: #eaeaea;
+        position: absolute;
+        left: 60px;
+        bottom: 5px;
+      }
+    }
+  }
+}

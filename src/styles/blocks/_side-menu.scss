@@ -1,0 +1,47 @@
+.side-menu {
+  height: 100vh;
+  width: 320px;
+  background: #fff;
+  z-index: 13;
+  position: fixed;
+  @media (min-width: $table-width) {
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2),
+      -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  }
+  @media (min-width: $desktop-width) {
+    box-shadow: none;
+    z-index: 0;
+  }
+  &__container{
+    color: #1b1c21;
+    font-family: "TTLakes", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    z-index: 13;
+    background: #fff;
+    height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+  
+    @media (min-width: $table-width) {
+      width: 320px;
+      min-width: 320px;
+      max-height: 1024px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    
+  }
+  &__footer {
+    padding: 16px;
+    @media (min-width: $table-width) {
+      padding: 24px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.main-request-menu {
+  display: none;
+  gap: 160px;
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    &__button {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 8px;
+    }
+    &__text {
+      margin-left: 32px;
+      align-self: center;
+      font-family: "TT Lakes", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-wrap: nowrap;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.side-mob-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  &__logo {
+    height: 51px;
+    @media (min-width: $desktop-width) {
+      margin-left: 22px;
+    }
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+  }
+  &__button {
+    margin: 0 16px;
+    @media (min-width: $table-width) {
+      margin: 0 24px;
+    }
+
+    &--hidden {
+      margin-right: 17px;
+      @media (min-width: $desktop-width) {
+        display: none;
+      }
+    }
+  }
+}
