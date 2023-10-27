@@ -25,7 +25,7 @@
     height: 100vh;
     min-width: 100vw;
     position: fixed;
-  
+    overflow: auto;
     @media (min-width: $table-width) {
       width: 320px;
       min-width: 320px;

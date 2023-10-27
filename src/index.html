@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.scss" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="styles/main.scss" >
     <title>webpack_block_1.6</title>
   </head>
   <body class="body">
@@ -12,30 +12,30 @@
       <div class="container container--header">
         <div class="mob-menu">
           <button class="mob-menu__button button">
-            <img src="images/menu.svg" alt="Menu" />
+            <img src="images/menu.svg" alt="Menu" >
           </button>
           <a class="mob-menu__logo" href="#">
-            <img src="images/logo.svg" alt="Logo" />
+            <img src="images/logo.svg" alt="Logo" >
           </a>
         </div>
         <div class="header__main-menu">
           <div class="tablet-menu tablet-menu--hidden">
             <button class="tablet-menu__button button button-phone">
-              <img src="images/call.svg" alt="Call" />
+              <img src="images/call.svg" alt="Call" >
             </button>
             <button class="tablet-menu__button button button-chat">
-              <img src="images/chat.svg" alt="Chat" />
+              <img src="images/chat.svg" alt="Chat" >
             </button>
             <button class="tablet-menu__button button">
-              <img src="images/profile.svg" alt="Profile" />
+              <img src="images/profile.svg" alt="Profile" >
             </button>
           </div>
           <div class="request-menu">
             <button class="request-menu__button button">
-              <img src="images/repair.svg" alt="Repair" />
+              <img src="images/repair.svg" alt="Repair" >
             </button>
             <button class="request-menu__button button">
-              <img src="images/checkstatus.svg" alt="Check status" />
+              <img src="images/checkstatus.svg" alt="Check status" >
             </button>
           </div>
         </div>
@@ -54,14 +54,14 @@
                   <button
                     class="side-mob-menu__button side-mob-menu__button--hidden button"
                   >
-                    <img src="images/cross.svg" alt="Close menu" />
+                    <img src="images/cross.svg" alt="Close menu" >
                   </button>
                   <a class="side-mob-menu__logo" href="#">
-                    <img src="images/logo.svg" alt="Logo" />
+                    <img src="images/logo.svg" alt="Logo" >
                   </a>
                 </div>
                 <button class="side-mob-menu__button button">
-                  <img src="images/search.svg" alt="Search" />
+                  <img src="images/search.svg" alt="Search" >
                 </button>
               </div>
               <nav class="side-nav">
@@ -98,13 +98,13 @@
             <div class="side-menu__footer">
               <div class="tablet-menu">
                 <button class="tablet-menu__button button button-phone">
-                  <img src="images/call.svg" alt="Call" />
+                  <img src="images/call.svg" alt="Call" >
                 </button>
                 <button class="tablet-menu__button button button-chat">
-                  <img src="images/chat.svg" alt="Chat" />
+                  <img src="images/chat.svg" alt="Chat" >
                 </button>
                 <button class="tablet-menu__button button">
-                  <img src="images/profile.svg" alt="Profile" />
+                  <img src="images/profile.svg" alt="Profile" >
                 </button>
               </div>
               <div class="contacts">
@@ -128,88 +128,6 @@
           </div>
         </div>
       </div>
-      <!-- Сайдбар feedback-->
-      <div class="wrapper wrapper-feedback wrapper--closed">
-        <div class="fog fog--left-side"></div>
-        <div class="callback">
-          <div class="callback__header">
-            <button class="callback__button button button-close">
-              <img src="images/cross.svg" alt="Close menu" />
-            </button>
-            <h1 class="callback__title">Обратная связь</h1>
-          </div>
-          <form class="callback__form" action="" method="get">
-            <input
-              class="callback__input"
-              type="text"
-              name="username"
-              placeholder="Имя"
-            />
-            <input
-              class="callback__input"
-              type="text"
-              name="phone"
-              placeholder="Телефон"
-            />
-            <input
-              class="callback__input"
-              type="text"
-              name="email"
-              placeholder="Электронная почта"
-            />
-            <textarea
-              class="callback__area callback__input"
-              name="message"
-              placeholder="Сообщение"
-              rows="4"
-            ></textarea>
-          </form>
-          <p class="callback__oferta">
-            Нажимая “отправить”, вы даете согласие на
-            <span class="callback__span">обработку персональных данных</span> и
-            соглашаетесь с нашей
-            <span class="callback__span">политикой конфиденциальности</span>
-          </p>
-          <div class="callback__wrapper">
-            <button class="submit-button">
-              <span class="submit-button__text">отправить</span>
-              <img src="images/goside.svg" alt="Submit" />
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- Сайдбар call-->
-      <div class="wrapper wrapper-call wrapper--closed">
-        <div class="fog fog--left-side"></div>
-        <div class="callback">
-          <div class="callback__header">
-            <button class="callback__button button button-close">
-              <img src="images/cross.svg" alt="Close menu" />
-            </button>
-            <h1 class="callback__title">Заказать звонок</h1>
-          </div>
-          <form class="callback__form" action="" method="get">
-            <input
-              class="callback__input"
-              type="text"
-              name="phone"
-              placeholder="Телефон"
-            />
-          </form>
-          <p class="callback__oferta">
-            Нажимая “отправить”, вы даете согласие на
-            <span class="callback__span">обработку персональных данных</span> и
-            соглашаетесь с нашей
-            <span class="callback__span">политикой конфиденциальности</span>
-          </p>
-          <div class="callback__wrapper">
-            <button class="submit-button">
-              <span class="submit-button__text">отправить</span>
-              <img src="images/goside.svg" alt="Submit" />
-            </button>
-          </div>
-        </div>
-      </div>
       <!-- Основной контент-->
       <div class="wrapper wrapper--main">
         <!-- Основной контент статья-->
@@ -218,11 +136,11 @@
             <h1 class="title article__title">Услуги и сервисы</h1>
             <div class="main-request-menu">
               <button class="main-request-menu__button button">
-                <img src="images/repair.svg" alt="Repair" />
+                <img src="images/repair.svg" alt="Repair" >
                 <span class="main-request-menu__text">Оставить заявку</span>
               </button>
               <button class="main-request-menu__button button">
-                <img src="images/checkstatus.svg" alt="Check status" />
+                <img src="images/checkstatus.svg" alt="Check status" >
                 <span class="main-request-menu__text">Статус ремонта</span>
               </button>
             </div>
@@ -259,7 +177,7 @@
                   техники Dell. Только у нас вы можете отремонтировать свой
                   ноутбук Dell с официальной гарантией производителя.
                 </p>
-                <br />
+                <br >
                 <p class="textbox__text">
                   Мы успешно работаем с 1992 года и заслужили репутацию
                   надежного партнера, что подтверждает большое количество
@@ -267,20 +185,20 @@
                   рекомендациям и, в свою очередь, советуют нас родным и
                   близким.
                 </p>
-                <br />
+                <br >
                 <p class="textbox__text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Doloribus fugit corporis quis, nostrum quae nam veritatis
                   architecto minima cum animi itaque. Facilis, earum voluptates
                   perferendis numquam sunt ea consequatur quo!
                 </p>
-                <br />
+                <br >
                 <p class="textbox__text">
                   Мы являемся авторизованным сервисным центром по ремонту
                   техники Dell. Только у нас вы можете отремонтировать свой
                   ноутбук Dell с официальной гарантией производителя.
                 </p>
-                <br />
+                <br >
                 <p class="textbox__text">
                   Мы успешно работаем с 1992 года и заслужили репутацию
                   надежного партнера, что подтверждает большое количество
@@ -294,7 +212,7 @@
                   src="images/expand.svg"
                   alt="Expand"
                   class="expand-button__img"
-                />
+                >
                 <span class="expand-button__text">Читать далее</span>
               </button>
             </div>
@@ -317,7 +235,7 @@
                   src="images/Lenovo.png"
                   alt="Lenovo logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -325,7 +243,7 @@
                   src="images/Samsung.png"
                   alt="Samsung logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -333,7 +251,7 @@
                   src="images/Apple.png"
                   alt="Apple logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -341,7 +259,7 @@
                   src="images/ViewSonic.png"
                   alt="ViewSonic logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -349,7 +267,7 @@
                   src="images/Bosch.png"
                   alt="Bosch logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -357,7 +275,7 @@
                   src="images/HP.png"
                   alt="HP logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -365,7 +283,7 @@
                   src="images/Acer.png"
                   alt="Acer logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -373,7 +291,7 @@
                   src="images/Sony.png"
                   alt="Sony logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -381,7 +299,7 @@
                   src="images/Lenovo.png"
                   alt="Lenovo logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -389,7 +307,7 @@
                   src="images/Samsung.png"
                   alt="Samsung logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -397,7 +315,7 @@
                   src="images/Apple.png"
                   alt="Apple logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
               <li class="swiper-slide section-nav__item">
@@ -405,7 +323,7 @@
                   src="images/Acer.png"
                   alt="Acer logo"
                   class="section-nav__logo"
-                />
+                >
                 <a href="#" class="section-nav__link"></a>
               </li>
             </ul>
@@ -418,7 +336,7 @@
               src="images/expand.svg"
               alt="Expand"
               class="expand-button__img"
-            />
+            >
             <span class="expand-button__text">Показать все</span>
           </button>
         </section>
@@ -549,7 +467,7 @@
               src="images/expand.svg"
               alt="Expand"
               class="expand-button__img"
-            />
+            >
             <span class="expand-button__text">Показать все</span>
           </button>
         </section>
@@ -576,7 +494,7 @@
                     <span class="section-nav__service-span">30 мин</span>
                     <button class="submit-button">
                         <span class="submit-button__text">заказать</span>
-                        <img src="images/goside.svg" alt="Submit" />
+                        <img src="images/goside.svg" alt="Submit" >
                       </button>
                     </div>
                 </div>
@@ -592,7 +510,7 @@
                         30-120 мин
                     <button class="submit-button">
                         <span class="submit-button__text">заказать</span>
-                        <img src="images/goside.svg" alt="Submit" />
+                        <img src="images/goside.svg" alt="Submit" >
                       </button>
                     </div>
                 </div>
@@ -608,7 +526,7 @@
                         30-120 мин
                     <button class="submit-button">
                         <span class="submit-button__text">заказать</span>
-                        <img src="images/goside.svg" alt="Submit" />
+                        <img src="images/goside.svg" alt="Submit" >
                       </button>
                     </div>
                 </div>
@@ -624,7 +542,7 @@
                         30-120 мин
                     <button class="submit-button">
                         <span class="submit-button__text">заказать</span>
-                        <img src="images/goside.svg" alt="Submit" />
+                        <img src="images/goside.svg" alt="Submit" >
                       </button>
                     </div>
                 </div>
@@ -640,7 +558,7 @@
                         30-120 мин
                     <button class="submit-button">
                         <span class="submit-button__text">заказать</span>
-                        <img src="images/goside.svg" alt="Submit" />
+                        <img src="images/goside.svg" alt="Submit" >
                       </button>
                     </div>
                 </div>
@@ -661,6 +579,88 @@
           
         </div>
         </section>
+        <!-- Сайдбар feedback-->
+      <div class="wrapper wrapper-feedback wrapper--closed">
+        <div class="fog fog--left-side"></div>
+        <div class="callback">
+          <div class="callback__header">
+            <button class="callback__button button button-close">
+              <img src="images/cross.svg" alt="Close menu" >
+            </button>
+            <h2 class="callback__title">Обратная связь</h2>
+          </div>
+          <form class="callback__form" action="" method="get">
+            <input
+              class="callback__input"
+              type="text"
+              name="username"
+              placeholder="Имя"
+            >
+            <input
+              class="callback__input"
+              type="text"
+              name="phone"
+              placeholder="Телефон"
+            >
+            <input
+              class="callback__input"
+              type="text"
+              name="email"
+              placeholder="Электронная почта"
+            >
+            <textarea
+              class="callback__area callback__input"
+              name="message"
+              placeholder="Сообщение"
+              rows="4"
+            ></textarea>
+          </form>
+          <p class="callback__oferta">
+            Нажимая “отправить”, вы даете согласие на
+            <span class="callback__span">обработку персональных данных</span> и
+            соглашаетесь с нашей
+            <span class="callback__span">политикой конфиденциальности</span>
+          </p>
+          <div class="callback__wrapper">
+            <button class="submit-button">
+              <span class="submit-button__text">отправить</span>
+              <img src="images/goside.svg" alt="Submit" >
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Сайдбар call-->
+      <div class="wrapper wrapper-call wrapper--closed">
+        <div class="fog fog--left-side"></div>
+        <div class="callback">
+          <div class="callback__header">
+            <button class="callback__button button button-close">
+              <img src="images/cross.svg" alt="Close menu" >
+            </button>
+            <h2 class="callback__title">Заказать звонок</h2>
+          </div>
+          <form class="callback__form" action="" method="get">
+            <input
+              class="callback__input"
+              type="text"
+              name="phone"
+              placeholder="Телефон"
+            >
+          </form>
+          <p class="callback__oferta">
+            Нажимая “отправить”, вы даете согласие на
+            <span class="callback__span">обработку персональных данных</span> и
+            соглашаетесь с нашей
+            <span class="callback__span">политикой конфиденциальности</span>
+          </p>
+          <div class="callback__wrapper">
+            <button class="submit-button">
+              <span class="submit-button__text">отправить</span>
+              <img src="images/goside.svg" alt="Submit" >
+            </button>
+          </div>
+        </div>
+      </div>
         <footer class="footer">
           <div class="container container--footer">
             <address class="footer__text">© 2019 CPS <br> Разработано командой Apesong</address>
